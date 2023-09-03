@@ -21,7 +21,6 @@ const SignUp = (props) => {
 
     })
     const json = await response.json()
-    console.log(json)
 
     if (json.success) {
       //save the authtoken and redirect
