@@ -5,8 +5,8 @@ const MONGO = process.env.MONGO;
 
 const mongoURI = MONGO;
 
-const connectToMongo = ()=>{
+const connectToMongo = () => {
     mongoose.connect(mongoURI)
 }
 
-module.exports= connectToMongo
+module.exports = connectToMongo;
